@@ -56,6 +56,7 @@ h3 {
 
 .contenedor {
     margin: 0 auto;
+    /*margin es separacion hacia adentro */
     max-width: 1200px;
 }
 
@@ -71,11 +72,14 @@ h3 {
 
 .nav-bg {
     background-color: var(--secundario);
+    /*Asi se usa una variable*/
 }
 
 .navegacion {
     scroll-snap-align: center;
+    /**/
     scroll-snap-stop: always;
+    /**/
     display: flex;
     flex-direction: column;
     align-items: center;
